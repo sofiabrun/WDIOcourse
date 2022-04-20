@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650474163069' stop='1650474177330'>
+    <name>MyStore</name>
+    <title>MyStore</title>
+    <test-cases>
+        <test-case start='1650474163070' status='broken' stop='1650474177328'>
+            <name>Debería seleccionar un producto de varias categorías y agregarlos al carrito</name>
+            <title>Debería seleccionar un producto de varias categorías y agregarlos al carrito</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7458358f-9d0f-45d0-bb3e-ad73aeed68d3-attachment.png' type='image/png' size='620470'/>
+            </attachments>
+            <failure>
+                <message>this.textAssertMainPage.getText is not a function</message>
+                <stack-trace>TypeError: this.textAssertMainPage.getText is not a function
+                    at HomePage.getTextAssertMainPage (C:\Users\Sofía Brun\VisualStudio\WDIOproject\pages\/home.page.js:56:44)
+                    at Context.&lt;anonymous> (C:\Users\Sofía Brun\VisualStudio\WDIOproject\tests\/product.test.js:17:37)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

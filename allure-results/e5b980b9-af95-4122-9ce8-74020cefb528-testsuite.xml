@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650479643983' stop='1650479656171'>
+    <name>MyStore</name>
+    <title>MyStore</title>
+    <test-cases>
+        <test-case start='1650479643983' status='broken' stop='1650479656168'>
+            <name>Debería seleccionar un producto y agregarlo a la WishList.</name>
+            <title>Debería seleccionar un producto y agregarlo a la WishList.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bc63dc53-c831-4415-8e71-d5d8ab09cab5-attachment.png' type='image/png' size='612484'/>
+            </attachments>
+            <failure>
+                <message>_home.default.getTextAssertMainPage is not a function</message>
+                <stack-trace>TypeError: _home.default.getTextAssertMainPage is not a function
+                    at Context.&lt;anonymous> (C:\Users\Sofía Brun\VisualStudio\WDIOproject\tests\/wishlist.test.js:14:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

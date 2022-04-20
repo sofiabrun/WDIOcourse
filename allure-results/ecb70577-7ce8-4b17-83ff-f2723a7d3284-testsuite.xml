@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650471970092' stop='1650471983908'>
+    <name>MyStore</name>
+    <title>MyStore</title>
+    <test-cases>
+        <test-case start='1650471970093' status='broken' stop='1650471983906'>
+            <name>Debería llenar formulario de Contact Us</name>
+            <title>Debería llenar formulario de Contact Us</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f15ea4a5-4336-463c-ade8-0638a13bd27f-attachment.png' type='image/png' size='612484'/>
+            </attachments>
+            <failure>
+                <message>this.contactUsAssert.getText is not a function</message>
+                <stack-trace>TypeError: this.contactUsAssert.getText is not a function
+                    at ContactUs.getTextAssert (C:\Users\Sofía Brun\VisualStudio\WDIOproject\pages\/contact.us.js:30:39)
+                    at Context.&lt;anonymous> (C:\Users\Sofía Brun\VisualStudio\WDIOproject\tests\/contactUs.test.js:8:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

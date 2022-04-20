@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650470494647' stop='1650470503277'>
+    <name>MyStore</name>
+    <title>MyStore</title>
+    <test-cases>
+        <test-case start='1650470494648' status='broken' stop='1650470503276'>
+            <name>Debería realizar login</name>
+            <title>Debería realizar login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650470502394' status='passed' stop='1650470502394'>
+                    <name>Llena el formulario de login.</name>
+                    <title>Llena el formulario de login.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='72456597-179b-482e-b753-b3b1694b69d3-attachment.png' type='image/png' size='620470'/>
+            </attachments>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at C:\Users\Sofía Brun\VisualStudio\WDIOproject\node_modules\@wdio\utils\build\shim.js:253:38
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at LoginPage.loginForm (C:\Users\Sofía Brun\VisualStudio\WDIOproject\pages\/login.page.js:15:7)
+                    at Context.&lt;anonymous> (C:\Users\Sofía Brun\VisualStudio\WDIOproject\tests\/login.test.js:11:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
